@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Course</title>
+</head>
+<body>
+    <div class="container">  
+    <form id="contact" >
+        <link rel="stylesheet" type="text/css" href="style.css">
+      <h3>Add a course</h3>          
+      <fieldset>
+        <legend>Select Title</legend>
+        <p>
+           <select id = "myList" >
+             <option value = "1">Java</option>
+             <option value = "2">C#</option>
+             <option value = "3">Javascript</option>
+           </select>
+        </p>          
+      </fieldset>
+      <fieldset>        
+        <legend>Select Stream</legend>
+          <p>
+             <select id = "myList" >
+               <option value = "1">CB09</option>
+               <option value = "2">CB10</option>
+               <option value = "3">CB11</option>
+             </select>
+          </p>  
+      </fieldset>
+      <fieldset>
+        <legend>Select Type</legend>
+        <p>
+           <select id = "myList" >
+             <option value = "1">Full time</option>
+             <option value = "2">Part time</option>             
+           </select>
+        </p>  
+      <fieldset>
+          <P>Start date</P>
+        <input placeholder="Start date" type="date" min="2020-05-19" max="2021-12-31"tabindex="3" required>
+      </fieldset>
+      <fieldset>
+        <fieldset>
+            <p>End date</p>
+            <input placeholder="End date" type="date" min="2020-05-19" max="2021-12-31" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+                    
+        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      </fieldset>         
+    </form>
+    
+  </div>
+</body>
+</html>
